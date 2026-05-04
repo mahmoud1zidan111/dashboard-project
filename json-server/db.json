@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "mahmoud@gmail.com",
+      "password": "mahmoud1234",
+      "fullName": "Mahmoud Zidan",
+      "avatar": "image-path......."
+    },
+    {
+      "id": 2,
+      "email": "tariq@gmail.com",
+      "password": "tariq1234",
+      "fullName": "Tariq Senosy",
+      "avatar": "image-path......."
+    },
+    {
+      "id": 3,
+      "email": "ahmed@gmail.com",
+      "password": "ahmed1234",
+      "fullName": "Ahmed Ali",
+      "avatar": "image-path......."
+    },
+    {
+      "id": 4,
+      "email": "khaled@gmail.com",
+      "password": "khaled1234",
+      "fullName": "khaled Gamal",
+      "avatar": "image-path......."
+    }
+  ]
+}
