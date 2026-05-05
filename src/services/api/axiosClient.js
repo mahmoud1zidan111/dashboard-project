@@ -1,5 +1,7 @@
 import axios from "axios";
+
 const baseURL = import.meta.env.VITE_API_BASE_URL;
+
 const axiosClient = axios.create({
   baseURL,
   timeout: 10_000,
@@ -12,10 +14,11 @@ axiosClient.interceptors.response.use(
   (response) => response,
   (error) => {
     const normalizedError = {
-      massage: "Unexpected error",
+      message: "Unexpected error",
       status: null,
       data: null,
     };
+
     if (!error.response) {
       normalizedError.message = "Network error: cannot reach API";
       return Promise.reject(normalizedError);
@@ -29,4 +32,5 @@ axiosClient.interceptors.response.use(
     return Promise.reject(normalizedError);
   },
 );
+
 export default axiosClient;

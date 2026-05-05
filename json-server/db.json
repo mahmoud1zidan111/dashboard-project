@@ -1,32 +1,183 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "email": "mahmoud@gmail.com",
       "password": "mahmoud1234",
       "fullName": "Mahmoud Zidan",
       "avatar": "image-path......."
     },
     {
-      "id": 2,
+      "id": "2",
       "email": "tariq@gmail.com",
       "password": "tariq1234",
       "fullName": "Tariq Senosy",
       "avatar": "image-path......."
     },
     {
-      "id": 3,
+      "id": "3",
       "email": "ahmed@gmail.com",
       "password": "ahmed1234",
       "fullName": "Ahmed Ali",
       "avatar": "image-path......."
     },
     {
-      "id": 4,
+      "id": "4",
       "email": "khaled@gmail.com",
       "password": "khaled1234",
-      "fullName": "khaled Gamal",
+      "fullName": "Khaled Gamal",
       "avatar": "image-path......."
     }
-  ]
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "title": "Revenue",
+      "value": 24800,
+      "delta": 12.4,
+      "trend": "up"
+    },
+    {
+      "id": "2",
+      "title": "Orders",
+      "value": 1248,
+      "delta": 4.8,
+      "trend": "up"
+    },
+    {
+      "id": "3",
+      "title": "Refunds",
+      "value": 18,
+      "delta": 2.1,
+      "trend": "down"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "date": "2026-01-12",
+      "amount": 360,
+      "type": "sale"
+    },
+    {
+      "id": "2",
+      "date": "2026-02-08",
+      "amount": 510,
+      "type": "sale"
+    },
+    {
+      "id": "3",
+      "date": "2026-03-18",
+      "amount": 210,
+      "type": "refund"
+    },
+    {
+      "id": "4",
+      "date": "2026-04-22",
+      "amount": 680,
+      "type": "sale"
+    },
+    {
+      "id": "5",
+      "date": "2026-05-01",
+      "amount": 420,
+      "type": "sale"
+    },
+    {
+      "id": "6",
+      "date": "2026-05-02",
+      "amount": 120,
+      "type": "refund"
+    },
+    {
+      "id": "7",
+      "date": "2026-05-03",
+      "amount": 760,
+      "type": "sale"
+    },
+    {
+      "id": "8",
+      "date": "2026-05-04",
+      "amount": 540,
+      "type": "sale"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "1",
+      "title": "Inventory review",
+      "time": "09:30",
+      "assignee": "Mahmoud"
+    },
+    {
+      "id": "2",
+      "title": "Sales sync",
+      "time": "12:00",
+      "assignee": "Tariq"
+    },
+    {
+      "id": "3",
+      "title": "Shipping check",
+      "time": "15:15",
+      "assignee": "Ahmed"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Keyboard",
+      "category": "In Stock",
+      "price": 55,
+      "revenue": 4400,
+      "sales": 80,
+      "conversion": "6.24%",
+      "views": 1280,
+      "active": true
+    },
+    {
+      "id": "2",
+      "name": "USB-C Hub",
+      "category": "In Stock",
+      "price": 39,
+      "revenue": 3120,
+      "sales": 80,
+      "conversion": "5.18%",
+      "views": 930,
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Desk Lamp",
+      "category": "Low Stock",
+      "price": 48,
+      "revenue": 2688,
+      "sales": 56,
+      "conversion": "4.71%",
+      "views": 740,
+      "active": true
+    },
+    {
+      "id": "4",
+      "name": "Laptop Stand",
+      "category": "In Stock",
+      "price": 42,
+      "revenue": 2310,
+      "sales": 55,
+      "conversion": "4.09%",
+      "views": 680,
+      "active": true
+    },
+    {
+      "id": "5",
+      "name": "Noise Cancelling Headset",
+      "category": "In Stock",
+      "price": 120,
+      "revenue": 6000,
+      "sales": 50,
+      "conversion": "8.21%",
+      "views": 1540,
+      "active": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
