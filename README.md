@@ -6,6 +6,19 @@ This is a responsive frontend application built as a part of the Frontend Intern
 
 ---
 
+**Demo Credentials**
+
+You can use any of the following credentials to log in to the live demo:
+
+| Email               | Password      |
+| ------------------- | ------------- |
+| `mahmoud@gmail.com` | `mahmoud1234` |
+| `tariq@gmail.com`   | `tariq1234`   |
+| `ahmed@gmail.com`   | `ahmed1234`   |
+| `khaled@gmail.com`  | `khaled1234`  |
+
+---
+
 ## Tech Stack
 
 - **React.js (with Vite)**: For building a fast and modern user interface.
