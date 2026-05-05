@@ -39,7 +39,7 @@ export default function Login() {
               className="form-control"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="mahmoud@gmail.com"
+              placeholder="Enter your Email"
             />
           </div>
 
@@ -50,7 +50,7 @@ export default function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               type="password"
-              placeholder="mahmoud1234"
+              placeholder="Enter your password"
             />
           </div>
 
